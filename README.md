@@ -1,5 +1,3 @@
-<div align="center">
-
 ## 🚴 Usage
 
 ### 🐑 Use `cargo generate` to Clone this Template
