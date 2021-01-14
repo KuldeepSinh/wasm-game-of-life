@@ -50,12 +50,12 @@ impl Universe {
 impl Universe {
 
     pub fn new() -> Universe {
-        let width = 256;
-        let height = 256;
+        let width = 32;
+        let height = 32;
 
         let cells = (0..width * height)
             .map(|i| {
-                if i % 3 == 0 || i % 7 == 0 || i % 11 == 0 || i % 17 == 0 {
+                if i % 3 == 0 || i % 7 == 0  {
                     Cell::Alive
                 } else {
                     Cell::Dead
